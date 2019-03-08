@@ -12,12 +12,12 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "26.0.3"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
-        minSdkVersion 23
-        targetSdkVersion 26
+        minSdkVersion 24
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
@@ -31,7 +31,6 @@ repositories {
 }
 
 dependencies {
-     compile fileTree(dir: '../IntuneSDK/android/libs', include: ['*.jar'])
-     compile project(':ReactAndroid')
+    api project(':Microsoft.Intune.MAM.SDK')
+    api project(':ReactAndroid')
 }
-  
