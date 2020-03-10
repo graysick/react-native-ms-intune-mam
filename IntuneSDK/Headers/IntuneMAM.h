@@ -18,4 +18,6 @@
 #import "IntuneMAMPolicy.h"
 #import "IntuneMAMPolicyDelegate.h"
 #import "IntuneMAMPolicyManager.h"
+#import "IntuneMAMSettings.h"
 #import "IntuneMAMVersionInfo.h"
+#import "IntuneMAMUIHelper.h"
