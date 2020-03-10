@@ -1,6 +1,6 @@
 
 {
-  "name": "react-native-ms-intune-mam",
+  "name": "@heks/react-native-ms-intune-mam",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
